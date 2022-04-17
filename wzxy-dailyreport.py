@@ -162,7 +162,7 @@ class WoZaiXiaoYuanPuncher:
             "myArea": "",
             "areacode": "",
             "userId": "",
-            "city_code": os.environ['CITY_CODE'],  # 20220417新增，西安
+            "city_code": os.environ['WZXY_CITY_CODE'],  # 20220417新增，西安
             "timestampHeader": sign_time,  # 20220417新增，时间戳（13位）
             "signatureHeader": signature  # 20220417新增，SHA256
         }
