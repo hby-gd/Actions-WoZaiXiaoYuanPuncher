@@ -131,7 +131,7 @@ class WoZaiXiaoYuanPuncher:
         self.header['Content-Type'] = "application/x-www-form-urlencoded"
         self.header['JWSESSION'] = self.getJwsession()
         sign_time = int(round(time.time() * 1000)) #13位
-        content = f"{'WZXY_PROVINCE'}_{sign_time}_{WZXY_CITY}"
+        content = f"{os.environ['WZXY_PROVINCE']}_{sign_time}_{os.environ['WZXY_CITY']}"
         signature = hashlib.sha256(content.encode('utf-8')).hexdigest()
         # 如果存在全局变量WZXY_ANSWERS，处理传入的Answer
         if os.environ['WZXY_ANSWERS']:
