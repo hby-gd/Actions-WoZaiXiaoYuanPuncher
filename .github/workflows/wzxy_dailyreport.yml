@@ -44,6 +44,7 @@ jobs:
         WZXY_LONGITUDE: ${{secrets.LONGITUDE}}
         WZXY_COUNTRY: ${{secrets.COUNTRY}}
         WZXY_CITY: ${{secrets.CITY}}
+        WZXY_CITY_CODE: ${{secrets.CITY_CODE}}
         WZXY_DISTRICT: ${{secrets.DISTRICT}}
         WZXY_PROVINCE: ${{secrets.PROVINCE}}
         WZXY_TOWNSHIP: ${{secrets.TOWNSHIP}}
@@ -84,6 +85,7 @@ jobs:
         WZXY_LONGITUDE: ${{secrets.LONGITUDE}}
         WZXY_COUNTRY: ${{secrets.COUNTRY}}
         WZXY_CITY: ${{secrets.CITY}}
+        WZXY_CITY_CODE: ${{secrets.CITY_CODE}}
         WZXY_DISTRICT: ${{secrets.DISTRICT}}
         WZXY_PROVINCE: ${{secrets.PROVINCE}}
         WZXY_TOWNSHIP: ${{secrets.TOWNSHIP}}
@@ -124,6 +126,7 @@ jobs:
         WZXY_LONGITUDE: ${{secrets.LONGITUDE}}
         WZXY_COUNTRY: ${{secrets.COUNTRY}}
         WZXY_CITY: ${{secrets.CITY}}
+        WZXY_CITY_CODE: ${{secrets.CITY_CODE}}
         WZXY_DISTRICT: ${{secrets.DISTRICT}}
         WZXY_PROVINCE: ${{secrets.PROVINCE}}
         WZXY_TOWNSHIP: ${{secrets.TOWNSHIP}}
